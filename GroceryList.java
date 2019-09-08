@@ -29,7 +29,6 @@ public class GroceryList {
         if(items[items.length -1] == null) {
             items[index] = new GroceryItemOrder(itemName, quantity, pricePerUnit);
         }
-        else System.out.println("Varen kunne ikke tilføjes");
     }
 
     /**
