@@ -102,6 +102,13 @@ public class GrocerySystem {
         groceryList.addItem(index, itemName, quantity, pricePerUnit);
         }
 
+    /**
+     * Den samme metode, man bare til List. Den eneste forskel er, at her har vi ikke 
+     * brug for nogen index, fordi man altid kan tilføje et nyt element til List uafhængigt
+     * af placeringen. 
+     * @param linje
+     * @param groceryList2
+     */
     public static void processLine2(String linje, GroceryList2 groceryList2) {
         Scanner element = new Scanner(linje);
         String itemName = element.next();
