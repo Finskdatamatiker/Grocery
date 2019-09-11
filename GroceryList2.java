@@ -55,10 +55,7 @@ public class GroceryList2 {
         System.out.println(df.format(total));
     }
 
-    /**
-     * Metoden forudsætter toString() i klassen GroceryItemOrder.
-     * Ellers får man kun printet referencerne.
-     */
+
     public void printItems() {
         for (GroceryItemOrder item : items) {
             System.out.println(item);
